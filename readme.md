@@ -1,11 +1,8 @@
 **Palindroma**
 Chiedere all’utente di inserire una parola
-let user = prompt("Inserisci una parola");
-console.log(user);
+
 Creare una funzione per capire se la parola inserita è palindroma (non usare funzioni predefinite di js).
-function chosenWord (){
-    alert(Sei Sicuro?)
-}
+
 **Pari e Dispari**
 L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
 
