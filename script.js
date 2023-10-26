@@ -1,4 +1,4 @@
-const userword = parseInt(prompt("Scrivimi una parola polindroma"));
+const userword = (prompt("Scrivimi una parola polindroma"));
 const result = poli(userword);
 //console.log(result);
 //alert(result);
