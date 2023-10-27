@@ -13,20 +13,18 @@ function resultNumber(numberToCheck) {
     let resultNumber = cpu + userNumber;
 
     if (resultNumber % 2 === 0) {
-        result = "even";
+        return  "even";
     } else {
-        result = "odd";
+        return "odd";
     }
-
-    console.log(resultNumber);
 
     let message = 0;
     if (userNumber === "even" && resultNumber === "even") {
-        console.log("hai vinto");
+       return "hai vinto";
     } else if (userNumber === "odd" && resultNumber === "odd") {
-        console.log("Hai vinto");
+        return "Hai vinto";
     } else {
-        console.log = ("hai perso!");
+        return "hai perso!";
     }
      return result;
 }
